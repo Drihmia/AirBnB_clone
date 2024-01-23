@@ -10,7 +10,7 @@ header {
 	position: relative;
 	top: 0px;
 }
-header h1.icon {
+header div.icon {
 	background-image: url("../images/logo_header.png");
 	background-size: contain;
 	background-repeat: no-repeat;
