@@ -1,0 +1,15 @@
+footer {
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+	height: 60px;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+footer p {
+	display: grid;
+	place-items: center;
+}

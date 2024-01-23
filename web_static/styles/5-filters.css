@@ -1,0 +1,76 @@
+/* Styles for the filters style */
+div.container .filters {
+	color: white;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	box-sizing: border-box;
+	position: relative;
+	display: grid;
+	place-items: center;
+}
+div.container .filters button {
+	font-size: 18px;
+	background-color: #FF5A5F;
+	color:#FFFFFF;
+	height: 48px;
+	width: 20%;
+	border: none;
+	padding: 0;
+	border-radius: 4px;
+	position: absolute;
+	right: 30px;
+}
+div.container .filters button:hover {
+	opacity: 90%;
+}
+
+div.container .filters .amenities,
+div.container .filters .locations {
+	box-sizing: border-box;
+	display: grid;
+	grid-gap: 0;
+	place-items: center;
+	height: 100%;
+	width: 25%;
+	color: black;
+	position: absolute;
+	float: left;
+
+}
+div.container .filters .locations {
+	border-right: 1px solid #DDDDDD;
+	left: 0%;
+}
+div.container .filters .amenities {
+	left: 25%;
+	border-right: 1px solid #DDDDDD;
+}
+.locations h3,
+.amenities h3 {
+	font-weight: 600;
+}
+.locations h4,
+.amenities h4 {
+	font-weight: 400;
+	font-size: 14px;
+}
+.locations h3,
+.amenities h3,
+.locations h4,
+.amenities h4 {
+	position:relative;
+	left: 15%;
+	width: 100%;
+	margin : 0px;
+	padding: 0px;
+}
+.titles {
+	display: grid;
+	grid-gap: 0;
+	place-items: center;
+	width: 100%;
+	margin : 0px;
+	padding: 0px;
+}

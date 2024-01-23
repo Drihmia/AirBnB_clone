@@ -1,0 +1,26 @@
+/* Styles for header style */
+header {
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	height: 70px;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+	top: 0px;
+}
+header h1.icon {
+	background-image: url("../images/logo_header.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: 20px center; /* instead of using the position relative on the container h1 */
+	margin: 0px;
+	padding: 0px;
+}
+
+	/* other option to move the entire h1 containeer by 20px left and center it vertically */
+	/*position: relative;*/
+	/*left: 20px;*/
+/*logo align on left and center vertically (20px space at the left)*/
